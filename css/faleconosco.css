@@ -1,0 +1,98 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact, .form-container, .map-container, .directions-container {
+    flex: 1 1 400px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.form-container, .directions-container{
+    border-left: 1px dashed #b3a888;
+}
+textarea{
+    resize: none;
+}
+
+.contact h2, .map-container iframe, .directions-container p, .form-container form {
+    max-width: 100%;
+}
+.contact h2 {
+    font-weight: 400;
+    text-align: center;
+    color: #b39f88;
+    
+}
+.contact h3{
+    font-weight: 300;
+}
+.contact ul {
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact li {
+    margin-bottom: 10px;
+    color: #b39f88;
+}
+
+
+
+form input[type="text"], form input[type="email"], form input[type="tel"], form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    color: #b39f88;
+}
+
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #b39f88;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffe3c2;
+}
+
+.icons{
+    font-size: 20px;
+    color: #b39f88;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.span{
+    margin-left: 14px;
+    text-align: center;
+}
+.title,.subtitle, .orientacao {
+    text-align: center;
+    padding: 10px;
+    color: #b39f88 ;
+}
+
+.subtitle, .desc{
+    font-weight:300;
+    color: #b39f88 ;
+}
+.desc{
+    line-height: 2;
+    
+}

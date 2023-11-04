@@ -1,0 +1,52 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    color: #b39f88;
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px;
+    color: #b39f88;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h2 {
+    color: #b39f88;
+    text-align: center;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+    color: #b39f88;
+}
+
+.services li {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.services li:last-child {
+    border-bottom: none;
+}

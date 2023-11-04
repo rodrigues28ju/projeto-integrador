@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Da Vó</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/faleconosco.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Delicias Da Vó</h1>
+    </header>
+
+    <div class="navbar" id="myNavbar">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="faleconosco.html">Contato</a>
+        <a href="#" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="card">
+            <div class="contact">
+                <h2>Fale Conosco</h2>
+                <ul>
+                    <li>
+                        <i class="icons fa-brands fa-whatsapp" title="Whatsapp"></i> <span class="span">(21) 99999-9999</span>
+                    </li>
+                    <li>
+                        <i class=" icons fa-solid fa-phone" title="Telefone"></i> <span class="span">(21) 0000-9999</span>
+                    </li>
+                    <li>
+                        <i class="icons fa-regular fa-envelope" title="Email"></i> <span class="span">contato@deliciasdavo.com.br</span> 
+                    </li>
+                    <li>
+                        <h3>Redes sociais:</h3>
+                    <ul>
+                        
+                        <li><a href="https://www.facebook.com/deliciasdavo" target="_blank" title="Facebook"><i class="icons fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/deliciasdavo" target="_blank" title="Instagram"><i class="icons fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/deliciasdavo" target="_blank" title="LinkedIn"><i class="icons fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="form-container">
+                    <form >
+                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="tel" name="telefone" placeholder="Telefone">
+                    <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+        
+    <div class="card">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1B3FvtPNohEP05ACQetUOA6jNS_dxmm4&ehbc=2E312F" width="640" height="300"></iframe>
+        </div>
+        
+        <div class="directions-container">
+            <h3 class="title">Nosso Endereço:</h3>
+            <p class="subtitle">
+                Nossa loja fica localizada na Rua dos Bolos, número 18, bairro do Bolo, Rio de Janeiro.</p>
+        
+            <p class="orientacao">Para chegar até nós, siga as seguintes instruções:</p>
+        
+            <span class="desc">
+                1. Pegue a Avenida dos doces em direção ao centro da cidade.<br>
+                2. Vire à direita na Rua dos bolos e siga por 500 metros. <br>
+                3. Nossa loja estará no lado esquerdo da rua. <br>
+            </span>
+        
+            <p class="orientacao">Você também pode usar o GPS para chegar até nós. Nosso endereço é:</p>
+                <span class="desc">Rua dos Bolos, número 18, bairro do Bolo, Rio de Janeiro.</span>
+        </div>
+    </div>
+        <footer class="footer">
+            <p>&copy; 2023 Delicias da Vó. Todos os direitos reservados.</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/ani.js"></script>   
+        <script src="./js/menu.js"></script>
+        <script src="./js/validacao.js"></script>
+</body>
+</html>
